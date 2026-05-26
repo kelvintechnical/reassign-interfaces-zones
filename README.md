@@ -1,11 +1,11 @@
 # Lab: Reassigning Interfaces Between firewalld Zones — Runtime vs Permanent
 
-**Series:** linux-ops-mastery — RHCSA Firewall
-**Subjects covered:** `firewall-cmd --change-interface`, `--permanent --change-interface`, `firewall-cmd --reload`, verifying with `--get-active-zones`, safe service checks before moves, rollback to `public`
-**Career arcs covered:** RHCSA (NIC-to-zone tasks), RHCE (interface parameters + handler notify reload), SRE (maintenance windows on dual-homed hosts), DevOps (immutable config vs live drift), AI/MLOps (isolating data-plane NICs)
-**Prerequisite:** Labs **firewalld-zones** (vocabulary) and **active-firewall-zones** (audit loop)
-**Time Estimate:** 30 to 45 minutes
-**Difficulty arc:** Task 1 snapshot · 2–3 runtime moves · 4 permanent mirror · 5 reload verification · 6 capstone + full revert
+- **Series:** linux-ops-mastery — RHCSA Firewall
+- **Subjects covered:** `firewall-cmd --change-interface`, `--permanent --change-interface`, `firewall-cmd --reload`, verifying with `--get-active-zones`, safe service checks before moves, rollback to `public`
+- **Career arcs covered:** RHCSA (NIC-to-zone tasks), RHCE (interface parameters + handler notify reload), SRE (maintenance windows on dual-homed hosts), DevOps (immutable config vs live drift), AI/MLOps (isolating data-plane NICs)
+- **Prerequisite:** Labs **firewalld-zones** (vocabulary) and **active-firewall-zones** (audit loop)
+- **Time Estimate:** 30 to 45 minutes
+- **Difficulty arc:** Task 1 snapshot · 2–3 runtime moves · 4 permanent mirror · 5 reload verification · 6 capstone + full revert
 
 ---
 
